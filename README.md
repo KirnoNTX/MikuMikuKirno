@@ -74,16 +74,10 @@ Once the server is up and running, you can interact with it via the frontend:
   "target": "http://example.com",
   "attackMethod": "http_flood",
   "packetSize": 512,
-  "duration": 60,
+  "duration": 9999,
   "packetDelay": 500
 }
 ```
-
-## Adding Proxies and User-Agents
-
-Access to the ``data/proxies.txt`` and ``data/uas.txt`` can now be done fully in the frontend. Click the text button to the right of the beam button to open up the editor.
-
-![AnnotatedImage](docs/annotated-button.png)
 
 ## Worker-Based Attack Handling 🔧💡
 

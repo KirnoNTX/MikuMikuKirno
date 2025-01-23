@@ -1,7 +1,7 @@
 {
-  "name": "miku-beam",
+  "name": "miku-kirno",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "concurrently --ks SIGKILL -n \"Client,Server\" \"npm run dev:client\" \"npm run dev:server\"",
@@ -13,7 +13,6 @@
   },
   "dependencies": {
     "axios": "^1.7.9",
-    "body-parser": "^1.20.3",
     "concurrently": "^9.1.2",
     "express": "^4.21.2",
     "lucide-react": "^0.344.0",
