@@ -32,14 +32,14 @@ Make sure you have the following installed:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/sammwyy/mikumikubeam.git
-   cd mikumikubeam
+   git clone https://github.com/KirnoNTX/MikuMikuPlus.git
+   cd MikuMikuPlus
    ```
 
 2. Install the required dependencies:
 
    ```bash
-   npm install
+   sudo npm install
    ```
 
 3. Create the necessary files:
@@ -49,7 +49,7 @@ Make sure you have the following installed:
 4. Run the server:
 
    ```bash
-   npm run dev
+   sudo npm run dev
    ```
 
    The server will run on port `3000` by default. 🌐

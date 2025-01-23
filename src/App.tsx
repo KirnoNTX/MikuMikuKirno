@@ -353,15 +353,7 @@ function App() {
 
         <div className="flex flex-col items-center">
           <span className="text-sm text-center text-gray-500"> 
-          🎵 v1.0 made by{" "}
-          <a
-            href="https://github.com/sammwyy/mikumikubeam"
-            target="_blank"
-            rel="noreferrer"
-          >
-            @Sammwy
-          </a>{" "}
-          🎵
+          💖 (｡♥‿♥｡) Happy Hacking 💖
           </span>
           <span>
           <input className="shadow-sm volume_bar focus:border-pink-500" type="range" min="0" max="100" step="5" draggable="false" value={audioVol} onChange={(e) => setAudioVol(parseInt(e.target?.value))} />
